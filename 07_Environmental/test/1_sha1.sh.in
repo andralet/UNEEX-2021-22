@@ -1,0 +1,2 @@
+#!/bin/sh
+./test.sh 1.in 1_sha1.out sha1sum Sha1

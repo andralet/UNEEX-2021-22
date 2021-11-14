@@ -1,0 +1,2 @@
+#!/bin/sh
+./test.sh 2.in 2_md5.out md5sum Md5
