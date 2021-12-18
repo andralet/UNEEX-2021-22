@@ -1,0 +1,84 @@
+# Russian translations for guess package.
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the guess package.
+# Alexander Tsekhmister <test@example.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guess 0.0.1\n"
+"Report-Msgid-Bugs-To: test@example.com\n"
+"POT-Creation-Date: 2021-12-18 12:31+0300\n"
+"PO-Revision-Date: 2021-12-18 12:35+0300\n"
+"Last-Translator: Alexander Tsekhmister <alex@alex-comp>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/guess.c:55
+#, c-format
+msgid ""
+"Think out a number between %s and %s, and I'll guess it with power of my "
+"QUESTIONS!\n"
+msgstr "Задумайте число от %s до %s, и я угадаю его силой своих ВОПРОСОВ!\n"
+
+#: src/guess.c:62
+#, c-format
+msgid "Is it bigger than %s (yes/no)? "
+msgstr "Ваше число больше %s (да/нет)? "
+
+#: src/guess.c:65 src/guess.c:81
+msgid "yes"
+msgstr "да"
+
+#: src/guess.c:67 src/guess.c:83
+msgid "no"
+msgstr "нет"
+
+#: src/guess.c:70 src/guess.c:97
+#, c-format
+msgid "yes/no, please\n"
+msgstr "Пожалуйста, ответьте да/нет\n"
+
+#: src/guess.c:78
+#, c-format
+msgid "Is your number %s (yes/no)? "
+msgstr "Вы загадали %s (да/нет)? "
+
+#: src/guess.c:87
+#, c-format
+msgid "Liar! Never liked liars...\n"
+msgstr "Лжец! Всегда ненавидел лжецов...\n"
+
+#: src/guess.c:91
+#, c-format
+msgid "LIAR!\n"
+msgstr "ЛЖЕЦ!\n"
+
+#: src/guess.c:102
+#, c-format
+msgid "Just like I thought. That was simple!\n"
+msgstr "Как я и думал. Это было легко!\n"
+
+#: src/argp.c:20
+msgid "Produce output in roman form instead of decimal"
+msgstr "Выводить числа в римской системе счисления вместо десятичной"
+
+#: src/argp.c:22
+msgid "A game, guessing a number you think out"
+msgstr "Игра, угадывающая загаданные вами числа"
+
+#: src/argp.c:53
+msgid "Usage:"
+msgstr "Применение:"
+
+#: src/argp.c:55
+msgid "Give this help list"
+msgstr "Вывести эту справку"
+
+#: src/argp.c:56
+msgid "Print program version"
+msgstr "Вывести версию программы"
